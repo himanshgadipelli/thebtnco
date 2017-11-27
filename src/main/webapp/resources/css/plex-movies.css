@@ -1,0 +1,22 @@
+body {
+    width: 84%;
+    /*text-align: left;*/
+    color: black;
+    background-color: white;
+}
+
+.header {
+    text-align: center;
+    width: 100%;
+}
+
+.header-buttons:hover {
+    background-color: #ffcc23;
+    font-weight: bold;
+    color: black;
+}
+
+.center-allign {
+    margin: auto;
+    text-align: left;
+}
