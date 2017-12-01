@@ -24,14 +24,12 @@ public class MovieService {
     @Autowired
     private SessionFactory sessionFactory;
 
-    public Movie save(Movie movie) {
+    public void save(Movie movie) {
         // From the factory get a "current" session
         Session session = sessionFactory.getCurrentSession();
         session.setHibernateFlushMode(FlushMode.MANUAL);
         session.saveOrUpdate(movie);
         session.flush();
-
-        return movie;
     }
 
 
