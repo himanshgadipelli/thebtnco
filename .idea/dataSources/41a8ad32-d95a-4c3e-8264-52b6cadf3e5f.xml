@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="thebtnco@localhost">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.2">
+    <root id="1"/>
+    <database id="2" parent="1" name="thebtnco">
+      <ObjectId>22515</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <schema id="3" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <IntrospectionTimestamp>2017-12-01.11:30:18.270</IntrospectionTimestamp>
+      <IntrospectionStateNumber>3276</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="4" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="5" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="6" parent="2" name="pg_temp_1">
+      <ObjectId>11816</ObjectId>
+    </schema>
+    <schema id="7" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11817</ObjectId>
+    </schema>
+    <schema id="8" parent="2" name="information_schema">
+      <ObjectId>12081</ObjectId>
+    </schema>
+    <sequence id="9" parent="3" name="movie_seq">
+      <ObjectId>24310</ObjectId>
+      <StateNumber>3275</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <table id="10" parent="3" name="movie">
+      <ObjectId>24312</ObjectId>
+      <StateNumber>3276</StateNumber>
+    </table>
+    <column id="11" parent="10" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>3276</StateNumber>
+    </column>
+    <column id="12" parent="10" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>3276</StateNumber>
+    </column>
+    <column id="13" parent="10" name="language">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>3276</StateNumber>
+    </column>
+    <column id="14" parent="10" name="requested_by">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>3276</StateNumber>
+    </column>
+    <column id="15" parent="10" name="status">
+      <Position>5</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>3276</StateNumber>
+    </column>
+    <index id="16" parent="10" name="movie_pkey">
+      <ObjectId>24318</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="17" parent="10" name="movie_pkey">
+      <ObjectId>24319</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>movie_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
