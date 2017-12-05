@@ -28,13 +28,13 @@
         running on an <a href="https://aws.amazon.com/ec2/">AWS EC2</a> instance.
     </h4>
     <h4><span class="make-bold">Tech stack</span> : The web app has been developed using Java, Spring MVC, servlets,
-        jQuery, AngularJS and bootstrap.</h4>
+        AngularJS and bootstrap CSS.</h4>
     <h4><span class="make-bold">Purpose</span> : To improve the skills I have and add new ones to the stack.
     </h4>
-    <h4><span class="make-bold">Methodology</span>: TDD is currently being implemented.
-    </h4>
+    <%--<h4><span class="make-bold">Methodology</span>: TDD is currently being implemented.--%>
+    <%--</h4>--%>
     <h4><span class="make-bold">VCS</span> : Git is currently being used as the VCS. Code repository is stored on
-        <a href="https://www.bitbucket.org" target="_blank">www.bitbucket.org</a>
+        <a href="https://github.com/himanshgadipelli/thebtnco" target="_blank">www.github.com</a>
     </h4>
 </div>
 </body>

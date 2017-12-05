@@ -7,7 +7,6 @@
 <body>
 <%@include file="../../static/includes.jsp" %>
 <%@include file="../../static/header.jsp" %>
-<%@include file="../../static/footer.jsp" %>
 <div data-ng-app="homePage" id="homePage">
     <div data-ng-controller="HomePageController">
         <h1>{{welcomeHeader}}</h1>
@@ -16,7 +15,6 @@
     <%--<h4> Thank you for your patience.</h4>--%>
     <%--<h4> To know more about this application, please visit the "About this WebApp" tab.</h4>--%>
     <%--<h4> To get in touch with me, go to the "Contact Me" tab. </h4>--%>
-
 
 </div>
 <script type="text/javascript">

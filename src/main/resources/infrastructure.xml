@@ -11,17 +11,14 @@
         <property name="dataSource" ref="dataSource"/>
     </bean>
 
-    <!--Step 5 use to enable @Transactional in java code -->
-
-    <tx:annotation-driven transaction-manager="transactionManager"/>
-
     <!-- Step 2 Define your datasource -->
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-        <property name="driverClassName" value="${jdbc.driverClassName}"/>
-        <property name="password" value="${jdbc.password}"/>
-        <property name="username" value="${jdbc.username}"/>
-        <property name="url" value="${jdbc.url}"/>
+        <property name="driverClassName" value="org.postgresql.Driver"/>
+        <property name="password" value="qwerty123"/>
+        <property name="username" value="postgres"/>
+        <property name="url" value="jdbc:postgresql://localhost:5432/thebtnco"/>
     </bean>
-    <context:property-placeholder location="classpath:config/jdbc.properties"/>
 
+    <!--Step 5 use to enable @Transactional in java code -->
+    <tx:annotation-driven transaction-manager="transactionManager"/>
 </beans>

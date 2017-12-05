@@ -59,7 +59,6 @@ plexApp.controller('PlexFormController', function ($scope, $http) {
         //noinspection JSUnresolvedFunction
         document.getElementById("requestForm").reset();
     };
-
     $scope.editMovie = function (movie) {
         $scope.editing = $scope.movieList.indexOf(movie);
         $scope.newField = angular.copy(movie);
