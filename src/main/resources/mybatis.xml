@@ -4,10 +4,8 @@
        xmlns="http://www.springframework.org/schema/beans"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-
     <!-- Step 1  Enable discovery of spring component -->
     <context:component-scan base-package="com.thebtnco.mybatis"/>
-
 
     <!-- Which mappers am I dealing with? How am I to know all the SQL you are going to execute -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
@@ -26,6 +24,4 @@
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
         <property name="basePackage" value="com.thebtnco.mybatis.mapper"/>
     </bean>
-
-
 </beans>
