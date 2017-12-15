@@ -13,9 +13,9 @@
 <style>
     <%@include file="../css/thebtnco.css" %>
 </style>
-<%--<script>
+<script>
     <%@include file="jSignature/jSignature.min.js"%>
 </script>
 <script>
     <%@include file="jSignature/modernizr.js"%>
-</script>--%>
+</script>

@@ -193,7 +193,7 @@
         <div class="row center-allign" style="text-align: center">
             <button class="btn btn-submit submit" id="downloadPdf" type="submit"
                     style="background-color: dodgerblue; color: white;font-weight: bold;">
-                <a href="${pageContext.request.contextPath}/downloadPrevious" style="color: white;font-weight: bold;">Download
+                <a href="${pageContext.request.contextPath}/api/downloadPrevious" style="color: white;font-weight: bold;">Download
                     Generated PDF</a>
             </button>
         </div>

@@ -13,7 +13,7 @@ public class PdfDemoController {
     public String pdfDemo() {
 
         //noinspection SpringMVCViewInspection
-        return "pdf-demo";// /WEB-INF/views/home.jsp"
+        return "pdf-demo";
     }
 
     @PostMapping
