@@ -12,9 +12,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-/**
- * Created by Ady on 2/3/17.
- */
 @SuppressWarnings("DefaultFileTemplate")
 @Component // Spring component
 @Transactional // Annotation driven transaction
