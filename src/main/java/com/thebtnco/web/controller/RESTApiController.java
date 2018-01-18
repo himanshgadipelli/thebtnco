@@ -24,6 +24,7 @@ import java.nio.charset.Charset;
 @RequestMapping("/api")
 public class RESTApiController {
 
+//    @RequestMapping(value = "/getString", method = RequestMethod.GET, produces = "application/json")
 //    private static final String DEST = "D:/Test PDFs/";
     private static final String DEST = "/home/ubuntu/pdfs/";
     private String fileLocation;
