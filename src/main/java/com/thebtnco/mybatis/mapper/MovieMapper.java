@@ -1,6 +1,7 @@
 package com.thebtnco.mybatis.mapper;
 
 import com.thebtnco.persistence.domain.Movie;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -10,6 +11,5 @@ import java.util.List;
 @SuppressWarnings("DefaultFileTemplate")
 public interface MovieMapper {
 
-    List<Movie> getMovieList(/*@Param("id") Long id*/);
-
+    List<Movie> getMovieList(@Param("id") Long id);
 }

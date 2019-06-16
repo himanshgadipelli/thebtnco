@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="thebtnco@localhost">
-  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.2">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.14">
     <root id="1"/>
     <database id="2" parent="1" name="thebtnco">
       <ObjectId>22515</ObjectId>
@@ -40,31 +40,31 @@
     </table>
     <column id="11" parent="10" name="id">
       <Position>1</Position>
-      <DataType>bigint|0</DataType>
+      <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>3276</StateNumber>
     </column>
     <column id="12" parent="10" name="name">
       <Position>2</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>3276</StateNumber>
     </column>
     <column id="13" parent="10" name="language">
       <Position>3</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>3276</StateNumber>
     </column>
     <column id="14" parent="10" name="requested_by">
       <Position>4</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>3276</StateNumber>
     </column>
     <column id="15" parent="10" name="status">
       <Position>5</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>3276</StateNumber>
     </column>
